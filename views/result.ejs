@@ -1,0 +1,18 @@
+<% layout('layout') -%>
+
+<section class="card">
+  <h2>Hash Stored Successfully</h2>
+
+  <dl>
+    <dt>Record ID</dt>
+    <dd><%= id %></dd>
+
+    <dt>Created At</dt>
+    <dd><%= createdAt.toISOString() %></dd>
+
+    <dt>Hashed Password</dt>
+    <dd class="mono"><%= passwordHash %></dd>
+  </dl>
+
+  <p><a href="/">Hash another password</a></p>
+</section>
