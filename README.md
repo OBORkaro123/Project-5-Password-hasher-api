@@ -6,6 +6,38 @@ A simple but powerful **Node.js + Express** MVC web app that:
 - Stores it in a **MongoDB** database 
 - Displays the resulting hash and creation date
 
+- 
+# Structure
+```
+ express-mvc-hash-mongo-local/
+│
+├── controllers/
+│   └── authController.js       
+│
+├── models/
+│   └── userModel.js             
+│
+├── routes/
+│   └── authRoutes.js            
+│
+├── views/
+│   ├── layout.ejs               
+│   ├── index.ejs                
+│   └── result.ejs               
+│
+├── public/
+│   └── style.css               
+│
+├── .env.example                 
+├── .gitignore                   
+├── package.json                 
+├── server.js                    
+└── README.md 
+```
+# Note: this structure framework was made with ai...
+```
+```
+
 
 # Setup & Installation
 
