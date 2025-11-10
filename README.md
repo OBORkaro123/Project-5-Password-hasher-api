@@ -34,7 +34,7 @@ A simple but powerful **Node.js + Express** MVC web app that:
 ├── server.js                    
 └── README.md 
 ```
-# Note: this structure framework was made with ai...
+# Note: this structure writing was made with ai...
 ```
 ```
 
